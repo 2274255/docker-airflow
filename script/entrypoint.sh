@@ -80,7 +80,6 @@ then
   $CMD initdb
   exec $CMD webserver &
   exec $CMD scheduler
-  apt-get install nano
 # By default we use SequentialExecutor
 else
   if [ "$1" = "version" ]; then
